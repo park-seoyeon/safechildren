@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713661064873",
+    "firebase_url": "https://safe-child-3153.firebaseio.com",
+    "project_id": "safe-child-3153",
+    "storage_bucket": "safe-child-3153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713661064873:android:3d4a8597d2ecd1f8",
+        "android_client_info": {
+          "package_name": "com.example.kindergarten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713661064873-7m29pp07glee5ld4fp4cnpu0r9cqonu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kindergarten",
+            "certificate_hash": "8ebbeab86742052b3ff70a06b4e879ca1133614f"
+          }
+        },
+        {
+          "client_id": "713661064873-r3r6lsf48113ca33a25588jkuu7htj0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYQ1W0-FGIqASooiQcEwNQfJ-NsI3Swco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713661064873-r3r6lsf48113ca33a25588jkuu7htj0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

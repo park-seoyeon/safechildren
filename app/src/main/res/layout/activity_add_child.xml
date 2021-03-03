@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addchild"
+    android:orientation="vertical"
+    tools:context=".AddChild">
+
+    <TextView
+        android:id="@+id/childID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="ID"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editID"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="이름"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:text="전화번호"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/completeBtn"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/complete" />
+</LinearLayout>

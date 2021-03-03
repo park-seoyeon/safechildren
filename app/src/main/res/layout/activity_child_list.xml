@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/childlist"
+    android:orientation="vertical"
+    tools:context=".ChildList">
+
+    <ListView
+        android:id="@+id/childList"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/common_google_signin_btn_text_light_default" />
+
+    <ImageButton
+        android:id="@+id/checkBtn"
+        android:layout_width="291dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:onClick="mClick7"
+        app:srcCompat="@drawable/checkbutton" />
+</LinearLayout>

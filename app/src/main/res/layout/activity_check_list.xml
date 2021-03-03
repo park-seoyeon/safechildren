@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/childlist"
+    android:orientation="vertical"
+    tools:context=".CheckList">
+
+    <ListView
+        android:id="@+id/absenceList"
+        android:layout_width="match_parent"
+        android:layout_height="319dp"
+        android:layout_marginTop="50dp" />
+
+    <ImageButton
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:onClick="mClick8"
+        app:srcCompat="@drawable/resetbutton" />
+
+    <ImageButton
+        android:id="@+id/endButton"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@android:color/transparent"
+        android:onClick="mClick9"
+        app:srcCompat="@drawable/endbutton" />
+
+</LinearLayout>
